@@ -14,45 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_Small R1
-U 1 1 5D4DF745
-P 4700 2800
-F 0 "R1" H 4759 2846 50  0000 L CNN
-F 1 "1k" H 4759 2755 50  0000 L CNN
-F 2 "" H 4700 2800 50  0001 C CNN
-F 3 "~" H 4700 2800 50  0001 C CNN
-	1    4700 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 5D4E47AF
-P 5100 2800
-F 0 "R2" H 5159 2846 50  0000 L CNN
-F 1 "1k" H 5159 2755 50  0000 L CNN
-F 2 "" H 5100 2800 50  0001 C CNN
-F 3 "~" H 5100 2800 50  0001 C CNN
-	1    5100 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R3
-U 1 1 5D4E4857
-P 5400 2800
-F 0 "R3" H 5459 2846 50  0000 L CNN
-F 1 "1k" H 5459 2755 50  0000 L CNN
-F 2 "" H 5400 2800 50  0001 C CNN
-F 3 "~" H 5400 2800 50  0001 C CNN
-	1    5400 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R2
 U 1 1 5D4E5017
 P 6650 4000
 F 0 "R2" H 6709 4046 50  0000 L CNN
 F 1 "510k" H 6709 3955 50  0000 L CNN
-F 2 "" H 6650 4000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6650 4000 50  0001 C CNN
 F 3 "~" H 6650 4000 50  0001 C CNN
 	1    6650 4000
 	1    0    0    -1  
@@ -63,97 +30,20 @@ U 1 1 5D4E501D
 P 6400 3500
 F 0 "R1" V 6204 3500 50  0000 C CNN
 F 1 "1k" V 6295 3500 50  0000 C CNN
-F 2 "" H 6400 3500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 6400 3500 50  0001 C CNN
 F 3 "~" H 6400 3500 50  0001 C CNN
 	1    6400 3500
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R3
 U 1 1 5D4E5023
 P 7150 4000
-F 0 "R?" H 7209 4046 50  0000 L CNN
+F 0 "R3" H 7209 4046 50  0000 L CNN
 F 1 "10k" H 7209 3955 50  0000 L CNN
-F 2 "" H 7150 4000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7150 4000 50  0001 C CNN
 F 3 "~" H 7150 4000 50  0001 C CNN
 	1    7150 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 5D4E58BB
-P 4700 2350
-F 0 "C5" H 4792 2396 50  0000 L CNN
-F 1 "C_Small" H 4792 2305 50  0000 L CNN
-F 2 "" H 4700 2350 50  0001 C CNN
-F 3 "~" H 4700 2350 50  0001 C CNN
-	1    4700 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C6
-U 1 1 5D4E634B
-P 5200 2350
-F 0 "C6" H 5292 2396 50  0000 L CNN
-F 1 "C_Small" H 5292 2305 50  0000 L CNN
-F 2 "" H 5200 2350 50  0001 C CNN
-F 3 "~" H 5200 2350 50  0001 C CNN
-	1    5200 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 5D4E6CA7
-P 5200 1950
-F 0 "C4" H 5292 1996 50  0000 L CNN
-F 1 "C_Small" H 5292 1905 50  0000 L CNN
-F 2 "" H 5200 1950 50  0001 C CNN
-F 3 "~" H 5200 1950 50  0001 C CNN
-	1    5200 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 5D4E7088
-P 5200 1600
-F 0 "C2" H 5292 1646 50  0000 L CNN
-F 1 "C_Small" H 5292 1555 50  0000 L CNN
-F 2 "" H 5200 1600 50  0001 C CNN
-F 3 "~" H 5200 1600 50  0001 C CNN
-	1    5200 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC548 Q1
-U 1 1 5D4E7B11
-P 6000 1650
-F 0 "Q1" H 6191 1696 50  0000 L CNN
-F 1 "BC548" H 6191 1605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6200 1575 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6000 1650 50  0001 L CNN
-	1    6000 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC548 Q2
-U 1 1 5D4E8F65
-P 6000 2150
-F 0 "Q2" H 6191 2196 50  0000 L CNN
-F 1 "BC548" H 6191 2105 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6200 2075 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6000 2150 50  0001 L CNN
-	1    6000 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC548 Q3
-U 1 1 5D4E96C9
-P 6000 2650
-F 0 "Q3" H 6191 2696 50  0000 L CNN
-F 1 "BC548" H 6191 2605 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6200 2575 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6000 2650 50  0001 L CNN
-	1    6000 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -168,10 +58,10 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7050 3500 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5D4EA839
 P 7150 4300
-F 0 "#PWR?" H 7150 4050 50  0001 C CNN
+F 0 "#PWR0101" H 7150 4050 50  0001 C CNN
 F 1 "GND" H 7155 4127 50  0000 C CNN
 F 2 "" H 7150 4300 50  0001 C CNN
 F 3 "" H 7150 4300 50  0001 C CNN
@@ -179,10 +69,10 @@ F 3 "" H 7150 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0102
 U 1 1 5D4EB24B
 P 7150 3100
-F 0 "#PWR?" H 7150 2950 50  0001 C CNN
+F 0 "#PWR0102" H 7150 2950 50  0001 C CNN
 F 1 "VCC" H 7167 3273 50  0000 C CNN
 F 2 "" H 7150 3100 50  0001 C CNN
 F 3 "" H 7150 3100 50  0001 C CNN
@@ -195,21 +85,10 @@ U 1 1 5D4E6F26
 P 5750 3500
 F 0 "C1" V 5979 3500 50  0000 C CNN
 F 1 ".02uF" V 5888 3500 50  0000 C CNN
-F 2 "" H 5750 3500 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5750 3500 50  0001 C CNN
 F 3 "~" H 5750 3500 50  0001 C CNN
 	1    5750 3500
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C_Small C3
-U 1 1 5D4E6C3F
-P 4700 1950
-F 0 "C3" H 4792 1996 50  0000 L CNN
-F 1 "C_Small" H 4792 1905 50  0000 L CNN
-F 2 "" H 4700 1950 50  0001 C CNN
-F 3 "~" H 4700 1950 50  0001 C CNN
-	1    4700 1950
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 3500 6300 3500
@@ -233,4 +112,6 @@ Wire Wire Line
 Connection ~ 7150 4200
 Wire Wire Line
 	7150 4200 7150 4300
+Text Notes 7350 7500 0    50   ~ 10
+IEEE treinamento amplificador
 $EndSCHEMATC
